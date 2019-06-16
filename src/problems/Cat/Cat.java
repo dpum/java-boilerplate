@@ -7,8 +7,8 @@ public class Cat {
         Scanner input = new Scanner(System.in);
 
         while (input.hasNext()) {
-            String word  = input.next();
-            System.out.println(word);
+            String line = input.nextLine();
+            System.out.println(line);
         }
     }
 }
